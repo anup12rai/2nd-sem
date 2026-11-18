@@ -1,0 +1,12 @@
+Understand the Python code
+Code	Meaning
+a = 0	Lower limit
+b = 2	Upper limit
+n = 4	Number of intervals
+h = (b-a)/n	Calculate interval width
+range(n+1)	Repeat 5 times
+x = a+i*h	Calculate x
+y = x**2	Calculate function value
+i % 2 == 0	Check even position
+total + 2*y	Add even-position value twice
+total + 4*y	Add odd-position value four times
